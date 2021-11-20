@@ -3,14 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>love</title>
+    <link rel="stylesheet" href="style.css">
     <script type="text/javascript">
       function saipic() {
+        var th= document.getElementById("tex");
+        th.innerHTML="You loving this innocent fellow";
         var ch = document.getElementById("my_img");
 
         ch.src="https://drive.google.com/thumbnail?id=1bNXEBTAmGfC2pqfu41ACGeXZ6vn4df4w";
 
       }
       function angry(){
+        var th= document.getElementById("tex");
+        th.innerHTML="Abba! Please click yes na?";
         var ch = document.getElementById("my_img");
 
         ch.src="https://drive.google.com/thumbnail?id=1MkUxyJ5Cv7HjepDrYI4S16YHEvxK44nh";
@@ -19,10 +24,17 @@
   </head>
   <body>
     <div class="teji">
-      <h1>Do you want to know whom you loving??</h1>
-      <img id="my_img" src="" alt="">
-      <button type="button" onclick="saipic()" name="button">yes</button>
-      <button type="button" onclick='angry()' name="button">no</button>
+      <article >
+        <h1 id="tex" class="tex">Do you want to know whom you loving??</h1>
+
+      </article>
+
+      <br>
+      <br>
+      <img id="my_img" src="" alt="" class="im">
+      <br>
+      <button class="btn-red-tr" type="button" onclick="saipic()" name="button">yes</button>
+      <button class="btn-green-tr" type="button" onclick='angry()' name="button">no</button>
 
     </div>
 
