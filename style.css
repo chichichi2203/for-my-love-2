@@ -40,7 +40,7 @@ html {
 }
 
 .btn-red-tr{
-	min-width: 130px;
+	min-width: 260px;
 	position: relative;
 	display: inline-block;
 
@@ -58,7 +58,7 @@ html {
 	transition: 0.5s;
 }
 .btn-green-tr{
-	min-width: 130px;
+	min-width: 260px;
 	position: relative;
 	display: inline-block;
 
@@ -76,6 +76,7 @@ html {
 	transition: 0.5s;
 }
 .im{
+	margin : auto;
   width: 40%;
   border-radius: 4%;
 }
